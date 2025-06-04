@@ -1,0 +1,24 @@
+{
+    "name": "sedana/sedana-ses",
+    "description": "WordPress plugin to send all emails through Amazon SES",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "SEDANA",
+            "homepage": "https://sedana.tg"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "aws/aws-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sedana\\SES\\": "includes/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

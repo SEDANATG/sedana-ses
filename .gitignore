@@ -1,0 +1,59 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# WordPress plugin build artifacts
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# PHPUnit
+.phpunit.result.cache
+
+# Logs
+*.log
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# WordPress files that might get created accidentally
+wp-config.php
+.htaccess
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache files
+.sass-cache/
+.cache/
+
+# Node modules (if you use npm/yarn for build process)
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Build directories
+/build/
+/dist/
+
+# WordPress core (if accidentally placed inside plugin directory)
+wp-admin/
+wp-includes/
+wp-content/
+
+# Local development settings
+local-config.php
